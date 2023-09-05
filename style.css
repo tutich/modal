@@ -22,6 +22,8 @@ body {
   text-align: center;
   max-width: 40rem;
   margin-top: 3rem;
+  visibility: hidden;
+  z-index: -10;
   }
   .btn {
     background: rgb(5, 157, 207);
@@ -29,4 +31,12 @@ body {
     width: 100px;
     height: 30px;
     border-radius: 0.3rem;
+  }
+  .open-modal {
+    visibility: visible;
+    z-index: 10;
+  }
+  .close-modal {
+    visibility: visible;
+    z-index: 10;
   }
