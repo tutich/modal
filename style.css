@@ -1,0 +1,32 @@
+body {
+    background: url(images/hero-bg-1.jpg);
+    display: grid;
+    place-items: center;
+  }
+  .modal {
+    width: 90vw;
+    background: white;
+  padding: 4rem 0;
+  border-radius: 2rem;
+  box-shadow: lightcyan;
+  text-align: center;
+  max-width: 40rem;
+  margin-top: 15rem;
+  }
+  .overlay {
+    width: 90vw;
+    background: white;
+  padding: 4rem 0;
+  border-radius: 2rem;
+  box-shadow: lightcyan;
+  text-align: center;
+  max-width: 40rem;
+  margin-top: 3rem;
+  }
+  .btn {
+    background: rgb(5, 157, 207);
+    color: antiquewhite;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.3rem;
+  }
