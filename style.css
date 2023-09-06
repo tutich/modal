@@ -1,4 +1,4 @@
-body {
+/* body {
     background: url(images/hero-bg-1.jpg);
     display: grid;
     place-items: center;
@@ -39,4 +39,4 @@ body {
   .close-modal {
     visibility: visible;
     z-index: 10;
-  }
+  } */
