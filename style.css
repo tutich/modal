@@ -40,3 +40,58 @@
     visibility: visible;
     z-index: 10;
   } */
+
+  html {
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    background: #F1f5f7;
+  }
+  .ques {
+    text-align: center;
+    color: goldenrod;
+    margin-top: 5rem;
+  }
+  .first_ques {
+    text-align: center;
+    background: white;
+    margin: 1rem 12rem;
+    border-radius: 5px;
+    box-shadow: #F1f5f7;
+    padding: 1rem;
+  }
+  .sec_ques {
+    text-align: center;
+    background: white;
+    margin: 1rem 12rem;
+    border-radius: 5px;
+    box-shadow: #F1f5f7;
+    padding: 1rem;
+  }
+  .third_ques {
+    text-align: center;
+    background: white;
+    margin: 1rem 12rem;
+    border-radius: 5px;
+    box-shadow: #F1f5f7;
+    padding: 1rem;
+  }
+.question-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+  .question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
