@@ -79,6 +79,23 @@
   display: flex;
   justify-content: space-between;
 }
+.question-text {
+  display: flex;
+  justify-content: space-between;
+}
+.qst_btn {
+  height: fit-content;
+  align-items: center;
+  text-align: center;
+  color: goldenrod;
+  border-color: goldenrod;
+  cursor: pointer;
+  
+}
+.qst_btn:hover {
+  color: lightskyblue;
+  transform: rotate(90deg);
+}
 
   .question-text {
     display: none;
