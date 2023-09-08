@@ -9,13 +9,16 @@
 // closeBtnBtn.addEventListener("click", function() {
 //     overlay.classList.remove("open-modal");
 // });
-const btns = document.querySelectorAll(".qst_btn");
-const qstnText = document.querySelector(".question-text")
 
-btns.forEach( function(btn) {
-btn.addEventListener("click", function(e) {
-    const question = e.currentTarget.parentElement.parentElement;
-    question.classList.toggle("show-text");
-})
-})
+
+// const btns = document.querySelectorAll(".qst_btn");
+// const qstnText = document.querySelector(".question-text")
+
+// btns.forEach( function(btn) {
+// btn.addEventListener("click", function(e) {
+//     const question = e.currentTarget.parentElement.parentElement;
+//     question.classList.toggle("show-text");
+// })
+// })
+
 
