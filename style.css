@@ -140,6 +140,7 @@ h1 {
   text-align: center;
   padding: 3rem;
   font-size: 20px;
+ 
 }
 .card {
   background: #f1f5f9;
@@ -167,13 +168,36 @@ h1 {
   justify-content: space-between;
   
  }
- .first_ques {
-  
- }
+ 
  .answer {
   font-size: 15px;
-  display: ;
+  display: none;
  }
  .answer:hover {
   color: hsl(14, 88%, 65%);
  }
+ p {
+  font-size: 1em;
+  padding: 0, 1.3em, 1em 0;
+ }
+ h2 {
+  font-size: 1.3em;
+  text-align: start;
+  font-weight: 400;
+
+ }
+ .attribution {
+  color: #f1f5f9;
+ }
+ .attribution a {
+  color: hsl(14, 88%, 65%);
+ }
+ .active .answer {
+  display: block;
+ }
+ .active .question-title {
+  font-weight: 700;
+ }
+.active .arrow {
+transform: rotate(180deg);
+}

@@ -22,3 +22,11 @@
 // })
 
 
+const button =document.querySelectorAll(".btn");
+const ans = document.querySelector(".answer");
+
+button.forEach( function(btns) {
+   btns.addEventListener("click", function() {
+    this.classList.toggle("active");
+   }) ;
+});
