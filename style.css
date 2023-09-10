@@ -114,3 +114,66 @@
   .show-text .plus-icon {
     display: none;
   } */
+
+
+ html {
+  background: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-repeat: no-repeat;
+ }
+* {
+font-size: 12px;
+font-family: font-family: 'Kumbh Sans', sans-serif;
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 90%;
+height: 100vh;
+margin: auto;
+}
+h1 {
+  text-align: center;
+  padding: 3rem;
+  font-size: 20px;
+}
+.card {
+  background: #f1f5f9;
+ padding: 6rem;
+ border-radius: 10px;
+ width: 340px;
+ }
+ .illustration {
+  margin-bottom: -15rem;
+  z-index: ;
+ }
+ .illustration img:nth-of-type(1) {
+  position: relative;
+ }
+ .illustration img:nth-of-type(1) {
+  margin-top: -6rem;
+ }
+
+
+ .btn {
+  border: none;
+ }
+ .question-title {
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .first_ques {
+  
+ }
+ .answer {
+  font-size: 15px;
+  display: ;
+ }
+ .answer:hover {
+  color: hsl(14, 88%, 65%);
+ }
