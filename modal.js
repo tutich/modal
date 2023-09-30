@@ -22,11 +22,36 @@
 // })
 
 
-const button =document.querySelectorAll(".btn");
-const ans = document.querySelector(".answer");
+// const button =document.querySelectorAll(".btn");
+// const ans = document.querySelector(".answer");
 
-button.forEach( function(btns) {
-   btns.addEventListener("click", function() {
-    this.classList.toggle("active");
-   }) ;
+// button.forEach( function(btns) {
+//    btns.addEventListener("click", function(e) {
+//     const ans = e.currentTarget.parentElement.parentElement;
+//     this.classList.toggle("show-text");
+    
+//     if(btns.classList.contains("show-text")) {
+//       button.forEach(function (btns) {
+//          ans.classList.remove("show-text");
+//       });
+//      ans.classList.toggle("show-text");
+//     }
+//    }) ;
+// });
+
+
+const btn = document.querySelectorAll(".btn");
+console.log(btn);
+
+btn.forEach(function (button) {
+    button.addEventListener("click", function() {
+        this.classList.toggle ("show-text");
+
+    if(button.classList.contains("show-text")) {
+        btn.forEach(function (button) {
+            button.classList.remove("show-text");
+        })
+        button.classList.toggle("show-text");
+    }
+    });
 });
